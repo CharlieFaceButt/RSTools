@@ -1,4 +1,4 @@
-
+import numpy as np
 
 def holdout_random(input_data, p = 0.1, seed = 11, use_seed = False):
     if use_seed:
